@@ -1,7 +1,7 @@
 function About() {
     return (
         <>
-            <section className="grid grid-cols-2 py-10 px-10">
+            <section className="flex flex-col md:grid md:grid-cols-2 py-10 px-10 " id="about">
                 <div>
 
                 </div>
@@ -11,7 +11,7 @@ function About() {
 
                     </div>
 
-                    <p className="font-extralight text-pretty text-black">
+                    <p className="font-extralight text-pretty text-black ">
                         <strong> Con una base sólida en desarrollo y un ardiente deseo de ampliar mis habilidades,
                             Listo para afrontar nuevos desafíos y contribuir a proyectos de desarrollo.
                             Mi interés abarca todos los aspectos del proceso de desarrollo, desde el frontend hasta el backend, incluyendo pruebas y colaboración.
@@ -20,7 +20,7 @@ function About() {
 
 
                     <p className="font-extralight text-pretty text-black py-6">
-                        <strong>Me encanta el testing, creo en su importancia, y me gusta compartir mi conocimiento sobre ello.</strong>
+                        <strong className="text-yellow-500">Me encanta el testing, creo en su importancia, y me gusta compartir mi conocimiento sobre ello.</strong>
                     </p>
 
 

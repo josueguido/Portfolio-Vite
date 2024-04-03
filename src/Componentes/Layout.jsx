@@ -15,8 +15,8 @@ function Layout() {
                 <About />
                 <Proyectos />
                 <Slider />
-                <Footer />
             </ThemeColor>
+            <Footer />
         </main>
     );
 }

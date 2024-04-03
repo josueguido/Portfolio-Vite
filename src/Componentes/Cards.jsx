@@ -6,31 +6,37 @@ import Link from "../../public/Link.svg"
 
 
 const Card = ({ image, title, description, codeLink, previewLink }) => {
- 
+
 
     return (
-        <article className='grid grid-cols-2 gap-x-4 w-10/12 h-auto'>
-            <img src={image} alt={title} className=' w-full h-auto max-w-400 rounded-md object-cover' />
-            <section >
-                <div className='flex flex-col py-2 gap-4'>
+        <article className='flex flex-col md:grid md:grid-cols-2 md:gap-x-4 w-10/12 h-auto py-8 '>
+            <div className='flex rounded-md bg-gray-200'>
+                <div className='w-full h-auto max-w-400 rounded-lg overflow-hidden py-6'>
+                    <img src={image} alt={title} className='w-full h-auto object-cover p-2' />
+                </div>
+            </div>
+
+
+            <section>
+                <div className='flex flex-col py-6 gap-4 px-10'>
                     <h1>{title}</h1>
                     <p>{description}</p>
                 </div>
 
-                <div className='flex flex-row items-start justify-start gap-10'>
+                <div className='flex flex-row items-start justify-start px-10 gap-10'>
 
-                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2 hover:bg-gray-200 py-2 px-3 rounded-md'>
+                    <a href={previewLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2 bg-gray-200 hover:bg-gray-400 py-2 px-3 rounded-md dark:text-black'>
 
                         <img src={Link} alt="Link Icon" />
                         Preview
                     </a>
 
-                    <a href={previewLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2 hover:bg-gray-200 py-2 px-3 rounded-md'>
+                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2  bg-gray-200 hover:bg-gray-400 dark:text-black py-2 px-3 rounded-md'>
                         <img src={GitHub} alt="GitHub Icon" />
                         Code
                     </a>
                 </div>
-               
+
             </section>
         </article>
     );
@@ -41,7 +47,7 @@ Card.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    codeLink: PropTypes.string, 
+    codeLink: PropTypes.string,
     previewLink: PropTypes.string.isRequired,
 
 };
