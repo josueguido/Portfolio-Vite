@@ -12,7 +12,7 @@ function About() {
                     </div>
 
                     <p className="font-extralight text-pretty text-black ">
-                        <strong> Con una base sólida en desarrollo y un ardiente deseo de ampliar mis habilidades,
+                        <strong>
                             Listo para afrontar nuevos desafíos y contribuir a proyectos de desarrollo.
                             Mi interés abarca todos los aspectos del proceso de desarrollo, desde el frontend hasta el backend, incluyendo pruebas y colaboración.
                             Comprometido con el aprendizaje y crecimiento continuo en el mundo del desarrollo web, con énfasis específico en React.</strong>
@@ -20,13 +20,11 @@ function About() {
 
 
                     <p className="font-extralight text-pretty text-black py-6">
-                        <strong className="text-yellow-500">Me encanta el testing, creo en su importancia, y me gusta compartir mi conocimiento sobre ello.</strong>
+                        <strong>Me encanta el testing, creo en su importancia, y me gusta compartir mi conocimiento sobre ello.</strong>
                     </p>
 
 
-                    <p>
-                        Cuento con experiencia desarrollando aplicaciones, tanto del lado del cliente como del servidor
-                    </p>
+            
 
 
                     <div

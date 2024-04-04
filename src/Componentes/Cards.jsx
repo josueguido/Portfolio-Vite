@@ -23,19 +23,20 @@ const Card = ({ image, title, description, codeLink, previewLink }) => {
                     <p>{description}</p>
                 </div>
 
-                <div className='flex flex-row items-start justify-start px-10 gap-10'>
+                <div className='flex flex-row items-start justify-start px-10 gap-4 md:flex-row md:items-center md:justify-start md:text-start md:gap-10'>
 
-                    <a href={previewLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2 bg-gray-200 hover:bg-gray-400 py-2 px-3 rounded-md dark:text-black'>
+                    <a href={previewLink} target="_blank" rel="noopener noreferrer" className='flex flex-row gap-2 bg-gray-200 hover:bg-gray-400 py-2 px-6 md:px-3 text-start items-center rounded-md dark:text-black'>
 
-                        <img src={Link} alt="Link Icon" />
-                        Preview
+                        <img src={Link} alt="Link Icon" className="w-4 h-4" />
+                        <span className="">Preview</span>
                     </a>
 
-                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2  bg-gray-200 hover:bg-gray-400 dark:text-black py-2 px-3 rounded-md'>
-                        <img src={GitHub} alt="GitHub Icon" />
-                        Code
+                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2 bg-gray-200 hover:bg-gray-400 dark:text-black py-2 px-6 md:px-3 rounded-md text-start items-center '>
+                        <img src={GitHub} alt="GitHub Icon" className="w-4 h-4" />
+                        <span className="">Code</span>
                     </a>
                 </div>
+
 
             </section>
         </article>
