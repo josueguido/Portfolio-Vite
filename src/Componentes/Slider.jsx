@@ -51,9 +51,9 @@ function Slider() {
                     spaceBetween: 50,
                 },
             }}
-            className="mySwiper drop-shadow-xl py-20 px-5 " id='Skills'
+            className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10 " id='Skills'
         >
-            <SwiperSlide>
+            <SwiperSlide> 
                 <img src={HTML} />
             </SwiperSlide>
 

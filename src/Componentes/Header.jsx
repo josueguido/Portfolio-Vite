@@ -4,7 +4,7 @@ import contrast from "../assets/contrast.svg" */}
 
 function Header() {
 
- {/*   const [theme, setTheme] = useState(() => {
+    {/*   const [theme, setTheme] = useState(() => {
         return window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
     });
 

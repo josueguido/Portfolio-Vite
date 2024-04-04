@@ -20,11 +20,8 @@ function About() {
 
 
                     <p className="font-extralight text-pretty text-black py-6">
-                        <strong>Me encanta el testing, creo en su importancia, y me gusta compartir mi conocimiento sobre ello.</strong>
+                        <strong className="text-yellow-400 font-semibold">Me encanta el testing, creo en su importancia, y me gusta compartir mi conocimiento sobre ello.</strong>
                     </p>
-
-
-            
 
 
                     <div
@@ -32,12 +29,12 @@ function About() {
                         data-aos="fade-up"
                         data-aos-duration="1200"
                     >
-                        <a href="img/resume/resume.jpg" className="text-white py-4 px-4 bg-black" download>
-                            Download CV
+                        <a href="img/resume/resume.jpg" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" download>
+                            Descargar CV
+
                         </a>
                     </div>
                 </div>
-
             </section>
 
         </>
