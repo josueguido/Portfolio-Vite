@@ -10,7 +10,7 @@ function Contact() {
             <section className="flex justify-center items-center gap-6 md:gap-4">
                 <a href="https://github.com/josueguido" className={cn("inline-flex items-center py-2 px-2 border-gray-600 rounded-md hover:bg-gray-200 gap-2 md:gap-0 relative z-20")}>
                     <div className={cn("flex flex-row items-center justify-center")}>
-                        <img src={github} className="w-20 h-10 rounded-md hover:bg-gray-400" />
+                        <img src={github} className="w-20 h-10 rounded-md" />
                         <p className="max-w-xs md:max-w-none hidden md:block">GitHub</p>
                     </div>
                 </a>
@@ -26,7 +26,6 @@ function Contact() {
                         <p className=" hidden md:block">Contáctame</p>
                     </div>
                 </a>
-
             </section>
         </>
     );

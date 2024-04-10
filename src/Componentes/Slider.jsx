@@ -15,6 +15,11 @@ import Vite from "../assets/Tecnologias/Vite.svg"
 import Next from "../assets/Tecnologias/Next.svg"
 import Tailwind from "../assets/Tecnologias/Tailwind.svg"
 import Jest from "../assets/Tecnologias/Jest.svg"
+import GitHubActions from "../assets/Tecnologias/GitHubActions.svg"
+import Vitest from "../assets/Tecnologias/Vitest.svg"
+import Testing from "../assets/Tecnologias/Testing-library.svg"
+
+
 import 'swiper/css';
 import '../../src/index.css'
 
@@ -110,7 +115,19 @@ function Slider() {
             </SwiperSlide>
 
             <SwiperSlide>
+                <img src={GitHubActions} />
+            </SwiperSlide>
+
+            <SwiperSlide>
                 <img src={Jest} />
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <img src={Vitest} />
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <img src={Testing} />
             </SwiperSlide>
         </Swiper>
     );
