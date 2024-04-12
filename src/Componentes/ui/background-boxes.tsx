@@ -21,6 +21,9 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
         return colors[Math.floor(Math.random() * colors.length)];
     };
 
+    const isDesktop = window.innerWidth > 768
+
+
     return (
         <div
             style={{
@@ -49,7 +52,7 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
                             key={`col` + j}
                             className="w-16 h-8  border-r border-t border-slate-700 relative"
                         >
-                            {j % 2 === 0 && i % 2 === 0 ? (
+                              {isDesktop && j % 2 === 0 && i % 2 === 0 ? (
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
