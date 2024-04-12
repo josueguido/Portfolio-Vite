@@ -1,9 +1,7 @@
 "use client";
 import { Boxes } from "../Componentes/ui/background-boxes";
 import { cn } from "../utils/cn";
-import { Suspense, lazy } from "react";
-const Contact = lazy(() => import("../Componentes/Contact"))
-
+import Contact from "../Componentes/Contact"
 export function BackgroundBoxesDemo() {
     return (
         <>
@@ -18,9 +16,7 @@ export function BackgroundBoxesDemo() {
                     +1 año de experiencia. <strong>Desarrollador Web</strong> de San Ramon, Costa Rica. Especializado en el desarrollo de aplicaciones web tanto del lado del cliente como del servidor.
                 </p>
             </div>
-            <Suspense fallback={<div className="text-black">Loading...</div>}>
             <Contact />
-            </Suspense>
         </section>
         </>
     );

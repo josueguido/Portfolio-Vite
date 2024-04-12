@@ -3,11 +3,6 @@ import GitHub from "../../public/GitHub.svg"
 import Link from "../../public/Link.svg"
 
 
-
-
-
-
-
 const Card = ({ image, title, description, codeLink, previewLink, Tecnologias }) => {
 
 
