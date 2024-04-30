@@ -23,11 +23,7 @@ function Proyectos() {
             <section className="flex flex-col gap-10 py-10 px-10 justify-center items-center text-start md:justify-center md:items-center">
 
                 <Suspense fallback={<img src={Skeleton}/>}>
-                    <Card
-                        image={Countries}
-                        title="REST API Countries"
-                        description="Descripción del componente"
-                    />
+                   
 
 
                     <Card
@@ -41,7 +37,7 @@ function Proyectos() {
 
                     <Card
                         image={Gallery}
-                        title="Galeria Parques Nacionales"
+                        title="Galería Parques Nacionales"
                         description="La Galería de Parques Nacionales es una plataforma web dedicada a explorar la belleza natural de los parques nacionales de Estados Unidos y Canadá. A través de una interfaz visualmente atractiva y fácil de usar,te ofrece una experiencia inmersiva para descubrir y aprender sobre los parques nacionales más emblemáticos de América del Norte."
                         codeLink="https://github.com/josueguido/Galeria-National-Parks/tree/master"
                         previewLink="https://ephemeral-tanuki-435594.netlify.app/"

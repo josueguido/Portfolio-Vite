@@ -55,7 +55,7 @@ Card.propTypes = {
     description: PropTypes.string.isRequired,
     codeLink: PropTypes.string,
     previewLink: PropTypes.string.isRequired,
-    Tecnologias: PropTypes.string.isRequired,
-};
+    Tecnologias: PropTypes.arrayOf(PropTypes.string).isRequired,
+}
 
 export default Card;
