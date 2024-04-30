@@ -19,9 +19,6 @@ function Proyectos() {
             <h1 className="flex  text-black font-light text-3xl px-20 mt-20" id="proyectos">Portfolio</h1>
             <section className="flex flex-col gap-10 py-10 px-10 justify-center items-center text-start md:justify-center md:items-center">
 
-                   
-
-
                     <Card
                         image={Countries}
                         title="REST API Countries"

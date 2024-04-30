@@ -1,6 +1,5 @@
 function About() {
     return (
-        <>
             <section className="flex flex-col md:grid md:grid-cols-2 py-10 px-10 " id="about">
                 <div>
 
@@ -27,9 +26,7 @@ function About() {
                     </div>
 
                     <div
-                        className=" font-light text-pretty text-xl py-10 my-6"
-                        data-aos="fade-up"
-                        data-aos-duration="1200"
+                       
                     >
                         <a href="../assests/curriculum.avif" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" download>
                             Descargar CV
@@ -38,8 +35,6 @@ function About() {
                     </div>
                 </div>
             </section>
-
-        </>
     );
 }
 

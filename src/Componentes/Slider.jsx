@@ -59,75 +59,75 @@ function Slider() {
             className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10 " id='Skills'
         >
             <SwiperSlide> 
-                <img src={HTML} />
+                <img src={HTML} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={CSS} />
+                <img src={CSS} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={JavaScript} />
+                <img src={JavaScript} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Git} />
+                <img src={Git} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={GitHub} />
+                <img src={GitHub} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={NPM} />
+                <img src={NPM} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={React} />
+                <img src={React} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={PostGres} />
+                <img src={PostGres} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={NodeJS} />
+                <img src={NodeJS} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Express} />
+                <img src={Express} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Tailwind} />
+                <img src={Tailwind} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Astro} />
+                <img src={Astro} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Vite} />
+                <img src={Vite} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Next} />
+                <img src={Next} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={GitHubActions} />
+                <img src={GitHubActions} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Jest} />
+                <img src={Jest} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Vitest} />
+                <img src={Vitest} alt='Tecnologias'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Testing} />
+                <img src={Testing} alt='Tecnologias'/>
             </SwiperSlide>
         </Swiper>
     );
