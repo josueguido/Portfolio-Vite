@@ -1,4 +1,3 @@
-import { Suspense, lazy } from "react";
 import Countries from "../assets/Proyectos/Countries.png"
 import Gallery from "../assets/Proyectos/Gallery.png"
 import Loopstudios from "../assets/Proyectos/Loopstudios.png"
@@ -11,9 +10,7 @@ import Vitest from "../../public/Vitest.svg"
 import githubactions from "../../public/githubactions.svg"
 import Testing from "../../public/Testing-library.svg"
 import JavaScript from "../../public/JavaScript.svg"
-import Skeleton from "../Componentes/Skeleton/Skeleton"
-const Card = lazy(() => import("./Cards"))
-
+import Card from "./Cards";
 function Proyectos() {
 
     
@@ -22,7 +19,6 @@ function Proyectos() {
             <h1 className="flex  text-black font-light text-3xl px-20 mt-20" id="proyectos">Portfolio</h1>
             <section className="flex flex-col gap-10 py-10 px-10 justify-center items-center text-start md:justify-center md:items-center">
 
-                <Suspense fallback={<img src={Skeleton}/>}>
                    
 
 
@@ -53,7 +49,6 @@ function Proyectos() {
                         Tecnologias={[HTML, CSS, JavaScript]}
 
                     />
-                </Suspense>
             </section>
 
         </>
