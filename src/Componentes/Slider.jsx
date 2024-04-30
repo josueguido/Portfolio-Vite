@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import HTMl from "../assets/Tecnologias/HTML.svg"
-import CSs from "../assets/Tecnologias/CSS.svg"
+import HTML from "../assets/Tecnologias/HTML.svg"
+import CSS from "../assets/Tecnologias/CSS.svg"
 import JavaScript from "../assets/Tecnologias/JavaScript.svg"
 import NPM from "../assets/Tecnologias/NPM.svg"
 import Git from "../assets/Tecnologias/Git.svg"
@@ -59,11 +59,11 @@ function Slider() {
             className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10 " id='Skills'
         >
             <SwiperSlide> 
-                <img src={HTMl} />
+                <img src={HTML} />
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={CSs} />
+                <img src={CSS} />
             </SwiperSlide>
 
             <SwiperSlide>
