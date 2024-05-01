@@ -10,7 +10,7 @@ const Card = ({ image, title, description, codeLink, previewLink, Tecnologias })
         <article className='flex flex-col md:grid md:grid-cols-2 md:gap-x-4 w-10/12 h-auto py-8 rounded-md bg-gray-200 '>
             <div className='flex flex-col'>
                 <div className='w-full h-auto max-w-400 rounded-lg overflow-hidden py-6'>
-                    <img src={image} alt={title} className='w-full h-auto object-cover p-2' />
+                    <img src={image} alt={title} className='w-full h-auto object-cover p-2' style={{ width: 'w-full', height: 'auto' }} />
                 </div>
             </div>
 

@@ -30,6 +30,7 @@ function Slider() {
             slidesPerView={8}
             spaceBetween={2}
             loop={true}
+            lazy={true}
             effect={'coverflow'}
             pagination={{
                 clickable: true,
@@ -56,7 +57,7 @@ function Slider() {
                     spaceBetween: 50,
                 },
             }}
-            className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10 " id='Skills'
+            className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10" id='Skills'
         >
             <SwiperSlide> 
                 <img src={HTML} alt='Tecnologias'/>

@@ -5,7 +5,7 @@ import Contact from "../Componentes/Contact"
 export function BackgroundBoxesDemo() {
     return (
         <>
-        <section className="h-96 relative w-full overflow-hidden bg-slate-300 flex flex-col justify-center items-center text-center md:items-start md:justify-start md:text-start py-10 px-10 md:mt-20 gap-6" id="home">
+        <section className="h-96 relative w-full overflow-hidden bg-slate-300 flex flex-col justify-center items-center text-center md:items-start md:justify-start md:text-start py-10 px-10  gap-6" id="home">
         <div className="absolute inset-0 w-full h-full bg-slate-200  [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
             <Boxes />
             <div className="max-w-xl pt-20">
