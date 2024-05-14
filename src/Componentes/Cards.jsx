@@ -48,7 +48,6 @@ const Card = ({ image, title, description, codeLink, previewLink, Tecnologias })
     );
 };
 
-// Define las PropTypes para el componente Card
 Card.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,

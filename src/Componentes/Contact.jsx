@@ -1,7 +1,6 @@
 import github from "../assets/Social/github.svg"
 import LinkedIn from "../assets/Social/linkedin.svg"
 import mail from "../assets/Social/mail.svg"
-// import { cn } from "../utils/cn";
 import SocialLink from "./SocialLink";
 
 function Contact() {

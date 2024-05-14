@@ -14,7 +14,7 @@ function About() {
                         </strong>
                     </p>
                     <p className="font-extralight text-pretty text-black py-6">
-                        <strong className="text-yellow-400 font-semibold">Me interesa el testing, creo en su importancia para poder tener una buena calidad de código y me gusta compartir mi conocimiento sobre ello.</strong>
+                        <strong className="text-black font-semibold">Me interesa el testing, creo en su importancia para poder tener una buena calidad de código y me gusta compartir mi conocimiento sobre ello.</strong>
                     </p>
                     <p>Me encanta enfocarme en la parte del rendimiento, para ofrecer la mejor experiencia al usuario.</p>
                 </div>
