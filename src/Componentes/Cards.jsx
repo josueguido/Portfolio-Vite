@@ -1,50 +1,46 @@
 import PropTypes from 'prop-types';
 import GitHub from "../../public/GitHub.svg"
 import Link from "../../public/Link.svg"
-
+import { BorderBeam } from './ui/border-beam';
 
 const Card = ({ image, title, description, codeLink, previewLink, Tecnologias }) => {
 
 
     return (
-        <article className='flex flex-col md:grid md:grid-cols-2 md:gap-x-4 w-10/12 h-auto py-8 rounded-md bg-gray-200 '>
-            <div className='flex flex-col'>
-                <div className='w-full h-auto max-w-400 rounded-lg overflow-hidden py-6'>
-                    <img src={image} alt={title} className='w-full h-auto object-cover p-2' style={{ width: 'w-full', height: 'auto' }} />
+        <article className="flex flex-col w-96 h-auto py-8 relative rounded-lg bg-gray-100 shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="flex flex-col">
+                <div className="w-full h-auto max-w-800 rounded-lg overflow-hidden">
+                    <img src={image} alt={title} className="w-full h-auto object-cover p-2 rounded-md" />
                 </div>
             </div>
 
-
-            <section className='flex flex-col justify-start'>
-                <div className='flex flex-col py-6 gap-4 px-10 text-center md:text-start'>
-                    <h1>{title}</h1>
-                    <p>{description}</p>
+            <section className="flex flex-col justify-center px-4">
+                <div className="flex flex-col py-6 gap-4 text-center md:text-center">
+                    <h1 className="text-2xl font-bold text-gray-900">{title}</h1>
+                    <p className="text-gray-700">{description}</p>
                 </div>
 
-                <div className='flex flex-row py-4 justify-center items-center md:justify-start  px-10'>
+                <div className="flex flex-row py-4 justify-center items-center md:justify-center gap-4">
                     {Array.isArray(Tecnologias) && Tecnologias.map((tecnologia, index) => (
-                        <img key={index} src={tecnologia} className='w-20 h-10' alt={`Tecnologia ${index}`} />
+                        <img key={index} src={tecnologia} className="w-10 h-10" alt={`Tecnologia ${index}`} />
                     ))}
-
                 </div>
 
-                <div className='flex flex-row items-start justify-center py-6 px-10 gap-4 md:flex-row md:items-center md:justify-start md:text-start md:gap-10'>
-
-                    <a href={previewLink} target="_blank" rel="noopener noreferrer" className='flex flex-row gap-2 bg-gray-200 hover:bg-gray-400 py-2 px-6 md:px-3 text-start items-center rounded-md dark:text-black'>
-
+                <div className="flex flex-row justify-center items-center text-center py-6 gap-4 md:justify-center">
+                    <a href={previewLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-200 hover:bg-gray-400 py-2 px-6 md:px-3 rounded-md dark:text-black transition-colors duration-300">
                         <img src={Link} alt="Link Icon" className="w-4 h-4" />
                         <span className="hidden md:block">Preview</span>
                     </a>
 
-                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className='inline-flex gap-2 bg-gray-200 hover:bg-gray-400 dark:text-black py-2 px-6 md:px-3 rounded-md text-start items-center '>
+                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-200 hover:bg-gray-400 dark:text-black py-2 px-6 md:px-3 rounded-md transition-colors duration-300">
                         <img src={GitHub} alt="GitHub Icon" className="w-4 h-4" />
                         <span className="hidden md:block">Code</span>
                     </a>
                 </div>
-
-
             </section>
+            <BorderBeam size={250} duration={12} delay={9} />
         </article>
+
     );
 };
 

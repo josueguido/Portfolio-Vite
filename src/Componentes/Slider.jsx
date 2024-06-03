@@ -18,8 +18,6 @@ import Jest from "../assets/Tecnologias/Jest.svg"
 import GitHubActions from "../assets/Tecnologias/GitHubActions.svg"
 import Vitest from "../assets/Tecnologias/Vitest.svg"
 import Testing from "../assets/Tecnologias/Testing-library.svg"
-
-
 import 'swiper/css';
 import '../../src/index.css'
 
@@ -57,7 +55,7 @@ function Slider() {
                     spaceBetween: 50,
                 },
             }}
-            className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10" id='Skills'
+            className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10 hidden md:block" id='Skills'
         >
             <SwiperSlide> 
                 <img src={HTML} alt='Tecnologias'/>
