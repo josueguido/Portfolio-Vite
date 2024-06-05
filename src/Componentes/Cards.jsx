@@ -8,10 +8,12 @@ const Card = ({ image, title, description, codeLink, previewLink, Tecnologias })
 
 
     return (
-        <article className="flex flex-col w-96 h-auto py-8 relative rounded-lg bg-gray-100 shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <article className="flex flex-col w-90 md:w-96 h-auto py-8 relative rounded-lg bg-gray-100 shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            
             <div className="flex flex-col">
                 <div className="w-full h-auto max-w-800 rounded-lg overflow-hidden">
-                    <img src={image} alt={title} className="w-full h-auto object-cover p-2 rounded-md" />
+                    <img src={image} alt='Desktop Image' className="w-full h-auto object-cover p-2 rounded-md hidden md:block" />
+                    <img src={image} alt='Mobile Image' className="w-full h-auto object-cover p-2 rounded-md block md:hidden" />
                 </div>
             </div>
 
