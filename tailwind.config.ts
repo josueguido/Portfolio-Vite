@@ -24,11 +24,6 @@ module.exports = {
           "0%": { transform: "translateY(-50%)" },
           "100%": { transform: "translateY(0)" },
         },
-        "border-beam": {
-          "100%": {
-            "offset-distance": "100%",
-          },
-        }
       }
     },
   },

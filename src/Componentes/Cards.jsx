@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import GitHub from "../../public/GitHub.svg"
 import Link from "../../public/Link.svg"
-import { BorderBeam } from './ui/border-beam';
+
+
 
 const Card = ({ image, title, description, codeLink, previewLink, Tecnologias }) => {
 
@@ -14,7 +15,8 @@ const Card = ({ image, title, description, codeLink, previewLink, Tecnologias })
                 </div>
             </div>
 
-            <section className="flex flex-col justify-center px-4">
+            <section className="flex flex-col justify-center px-4 ">
+            
                 <div className="flex flex-col py-6 gap-4 text-center md:text-center">
                     <h1 className="text-2xl font-bold text-gray-900">{title}</h1>
                     <p className="text-gray-700">{description}</p>
@@ -27,6 +29,7 @@ const Card = ({ image, title, description, codeLink, previewLink, Tecnologias })
                 </div>
 
                 <div className="flex flex-row justify-center items-center text-center py-6 gap-4 md:justify-center">
+
                     <a href={previewLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-200 hover:bg-gray-400 py-2 px-6 md:px-3 rounded-md dark:text-black transition-colors duration-300">
                         <img src={Link} alt="Link Icon" className="w-4 h-4" />
                         <span className="hidden md:block">Preview</span>
@@ -36,9 +39,10 @@ const Card = ({ image, title, description, codeLink, previewLink, Tecnologias })
                         <img src={GitHub} alt="GitHub Icon" className="w-4 h-4" />
                         <span className="hidden md:block">Code</span>
                     </a>
+                    
                 </div>
             </section>
-            <BorderBeam size={250} duration={12} delay={9} />
+     
         </article>
 
     );

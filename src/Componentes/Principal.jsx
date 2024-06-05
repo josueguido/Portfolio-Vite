@@ -9,7 +9,7 @@ export function Principal() {
             <section className="relative flex  items-center justify-center overflow-hidden rounded-lg border bg-background p-20 md:shadow-xl  flex-col  text-center md:items-start md:justify-start md:text-start px-10 gap-6" id="home">
                 <div className="flex flex-col gap-4">
                     <TypingAnimation
-                        className="text-start text-4xl font-bold "
+                        className="text-start text-3xl font-bold "
                         text="Hey, soy Josue Guido"
                     />
                     <span className="mt-6 text-xl text-balance relative">
