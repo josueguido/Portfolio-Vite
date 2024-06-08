@@ -50,7 +50,7 @@ function Proyectos() {
                     description="El Explorador de Países es una aplicación web que te permite explorar información detallada sobre países de todo el mundo. Conectado a un JSON de países, esta aplicación proporciona datos precisos y actualizados sobre diversos aspectos de cada país, incluyendo su nombre, capital, población, idioma, moneda, región y bandera."
                     codeLink="https://github.com/josueguido/countries-api"
                     previewLink="https://countrys-apps.netlify.app/"
-                    Tecnologias={[Vite, ReactLogo, Tailwind, Vitest, Testing, githubactions]}
+                    Tecnologias={[Vite, ReactLogo, Tailwind, Testing, githubactions]}
                 />
 
                 <Card
