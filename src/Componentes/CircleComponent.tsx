@@ -4,13 +4,13 @@ import React from "react";
 
 export function OrbitingCirclesDemo() {
   return (
-    <div className="relative flex h-[500px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg ">
-      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+    <div className="relative flex h-[400px] w-full max-w-[28rem] items-center justify-center overflow-hidden rounded-lg ">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-2xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
       </span>
 
       {/* Inner Circles */}
       <OrbitingCircles
-        className="h-[30px] w-[30px] border-none bg-transparent"
+        className="h-[20px] w-[20px] border-none bg-transparent"
         duration={17}
         delay={20}
         radius={50}
@@ -19,7 +19,7 @@ export function OrbitingCirclesDemo() {
       </OrbitingCircles>
 
       <OrbitingCircles
-        className="h-[30px] w-[30px] border-none bg-transparent"
+        className="h-[20px] w-[20px] border-none bg-transparent"
         duration={17}
         radius={50}
       >
@@ -27,7 +27,7 @@ export function OrbitingCirclesDemo() {
       </OrbitingCircles>
 
       <OrbitingCircles
-        className="h-[50px] w-[50px] border-none bg-transparent"
+        className="h-[30px] w-[30px] border-none bg-transparent"
         duration={15}
         delay={10}
         radius={120}
@@ -38,7 +38,7 @@ export function OrbitingCirclesDemo() {
 
       {/* Outer Circles (reverse) */}
       <OrbitingCircles
-        className="h-[50px] w-[50px] border-none bg-transparent"
+        className="h-[40px] w-[30px] border-none bg-transparent"
         reverse
         radius={190}
         duration={20}
@@ -47,7 +47,7 @@ export function OrbitingCirclesDemo() {
       </OrbitingCircles>
 
       <OrbitingCircles
-        className="h-[50px] w-[50px] border-none bg-transparent"
+        className="h-[30px] w-[30px] border-none bg-transparent"
         reverse
         radius={190}
         duration={20}

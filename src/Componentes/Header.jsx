@@ -5,7 +5,7 @@ function Header() {
 
 
     return (
-        <header className=" flex justify-between items-center px-5 py-5 md:px-20 bg-gray-200 border-b border-gray-500 ">
+        <header className="flex justify-between items-center px-5 py-5 md:px-20">
             <div>
                 <img src="shell.png" className="w-10" alt="Logo" />
             </div>
