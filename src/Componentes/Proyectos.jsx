@@ -1,12 +1,17 @@
 import Countries from "../assets/Proyectos/Countries.avif"
 import Gallery from "../assets/Proyectos/Gallery.avif"
 import TaskBoard from "../assets/Proyectos/Task-Board.avif"
+import GlamShop from "../assets/Proyectos/glam-shop.avif"
 import WeatherApp from "../assets/Proyectos/WeatherApp.avif"
 import Tailwind from "../../public/tailwind.svg"
 import ReactLogo from "../../public/react.svg"
 import Vite from "../../public/vite.svg"
 import Vitest from "../../public/Vitest.svg"
 import githubactions from "../../public/githubactions.svg"
+import Node from "../assets/Tecnologias/NodeJS.svg"
+import Express from "../assets/Tecnologias/Express.svg"
+
+
 import Testing from "../../public/Testing-library.svg"
 import Card from "./Cards";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect"
@@ -25,6 +30,17 @@ function Proyectos() {
             <TypewriterEffectSmooth words={words} className="flex text-black font-light text-3xl px-4 sm:px-10 mt-10 sm:mt-20" />
 
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-10 py-10 px-4 sm:px-10  justify-center items-center text-start min-w-0 mx-10" id="proyectos">
+
+                <Card
+                    image={GlamShop}
+                    title="E-Commerce"
+                    description="E-Commerce te brinda una experiencia de compra en línea fluida y segura. Con interfaz moderna y fácil de usar, gestionar tu carrito y realizar pagos seguros. La autenticación con JWT asegura que tus datos estén protegidos, mientras que la integración con Stripe facilita pagos rápidos y fiables. Desarrollada con React, Node.js y Express."
+                    codeLink="https://github.com/josueguido/E-Commerce"
+                    previewLink="https://glam-tech-shop.netlify.app"
+                    Tecnologias={[Vite, ReactLogo, Tailwind, Node, Express]}
+                />
+
+
 
                 <Card
                     image={WeatherApp}
