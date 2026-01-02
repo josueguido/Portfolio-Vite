@@ -1,6 +1,5 @@
 import IconCloud from "./ui/icon-cloud";
 
-
 const slugs = [
     "typescript",
     "javascript",

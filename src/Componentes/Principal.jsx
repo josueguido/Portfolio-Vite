@@ -17,14 +17,14 @@ export function Principal() {
                     <div className="md:w-1/2 py-20">
                         <TypingAnimation
                             className="text-center md:text-start text-6xl font-sans"
-                            text="Hey, Soy Josue Guido"
+                            text="Hey, I`m Josue Guido"
                         />
                         <p className="mt-6 text-xl text-balance relative">
-                            I`m a passionate Full-Stack Dev with an interest in
+                            I`m a passionate DevOps with an interest in
                         </p>
                         <WordRotate
                             className="text-4xl font-bold text-black dark:text-white"
-                            words={["Frontend Frameworks", "React", "Web Development", "Web Performance Optimization"]}
+                            words={["Cloud Infrastructure", "Kubernetes", "CI/CD Pipelines", "Infrastructure as Code", "Container Orchestration"]}
                         />
                         <div className="flex justify-center items-center md:justify-start md:items-start ">
                             <Contact />
