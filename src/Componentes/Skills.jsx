@@ -89,7 +89,6 @@ function Skills() {
                                         : "border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 hover:shadow-lg dark:hover:shadow-xl"
                                 }`}
                             >
-                                {/* Icon and Title */}
                                 <div className="flex items-start gap-3 mb-3">
                                     <div className={`p-3 rounded-lg ${
                                         category.id === 1 ? "bg-blue-100 dark:bg-blue-900" :
@@ -120,7 +119,6 @@ function Skills() {
                                     </div>
                                 </div>
 
-                                {/* Skills Tags */}
                                 <div className="flex flex-wrap gap-2 mt-4">
                                     {category.skills.map((skill, idx) => (
                                         <span
