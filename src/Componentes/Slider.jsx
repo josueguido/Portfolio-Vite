@@ -19,6 +19,7 @@ import Logstash from "../assets/Tecnologias/Logstash.svg";
 import ElasticSearch from "../assets/Tecnologias/Elasticsearch.svg";
 import Go from "../assets/Tecnologias/Go.svg";
 import CSharp from "../assets/Tecnologias/CSharp.svg";
+import TechSlide from "./TechSlide";
 import "swiper/css";
 import "../../src/index.css";
 
@@ -35,7 +36,7 @@ function Slider() {
 			}}
 			centeredSlides={true}
 			autoplay={{
-				delay: 2500,
+				delay: 2000,
 				disableOnInteraction: false,
 				zoom: false,
 			}}
@@ -59,79 +60,79 @@ function Slider() {
 			id="Skills"
 		>
 			<SwiperSlide>
-				<img src={Docker} alt="Docker" className="w-56 h-56"/>
+				<TechSlide src={Docker} alt="Docker" label="Docker" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Terraform} alt="Terraform" className="w-56 h-56"/>
+				<TechSlide src={Terraform} alt="Terraform" label="Terraform" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Kubernetes} alt="Kubernetes" className="w-56 h-56"/>
+				<TechSlide src={Kubernetes} alt="Kubernetes" label="Kubernetes" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Grafana} alt="Grafana" className="w-56 h-56"/>
+				<TechSlide src={Grafana} alt="Grafana" label="Grafana" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Prometheus} alt="Prometheus" className="w-56 h-56"/>
+				<TechSlide src={Prometheus} alt="Prometheus" label="Prometheus" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={ElasticSearch} alt="ElasticSearch" className="w-56 h-56"/>
+				<TechSlide src={ElasticSearch} alt="ElasticSearch" label="ElasticSearch" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Logstash} alt="Logstash" className="w-56 h-56" />
+				<TechSlide src={Logstash} alt="Logstash" label="Logstash" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Kibana} alt="Kibana" className="w-56 h-56"/>
+				<TechSlide src={Kibana} alt="Kibana" label="Kibana" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Git} alt="Git" className="w-56 h-56"/>
+				<TechSlide src={Git} alt="Git" label="Git" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={GitHub} alt="GitHub" className="w-56 h-56"/>
+				<TechSlide src={GitHub} alt="GitHub" label="GitHub" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={GitHubActions} alt="GitHubActions" className="w-56 h-56"  />
+				<TechSlide src={GitHubActions} alt="GitHubActions" label="GitHub Actions" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={NPM} alt="NPM" className="w-56 h-56"/>
+				<TechSlide src={NPM} alt="NPM" label="NPM" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Go} alt="Go" className="w-56 h-56"/>
+				<TechSlide src={Go} alt="Go" label="Go" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={CSharp} alt="CSharp" className="w-56 h-56"/>
+				<TechSlide src={CSharp} alt="CSharp" label="C#" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={JavaScript} alt="JavaScript" className="w-56 h-56"/>
+				<TechSlide src={JavaScript} alt="JavaScript" label="JavaScript" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={React} alt="React" className="w-56 h-56"/>
+				<TechSlide src={React} alt="React" label="React" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={PostGres} alt="PostGres" className="w-56 h-56"/>
+				<TechSlide src={PostGres} alt="PostGres" label="PostgreSQL" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={NodeJS} alt="NodeJS" className="w-56 h-56"/>
+				<TechSlide src={NodeJS} alt="NodeJS" label="Node.js" />
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<img src={Express} alt="Express" className="w-56 h-56"/>
+				<TechSlide src={Express} alt="Express" label="Express" />
 			</SwiperSlide>
 		</Swiper>
 	);
