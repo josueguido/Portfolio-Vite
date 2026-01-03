@@ -4,8 +4,6 @@ import { OrbitingCirclesDemo } from "./CircleComponent";
 import TypingAnimation from "./ui/typing-animation";
 import WordRotate from "./ui/word-rotate";
 
-
-
 export function Principal() {
     return (
         <>

@@ -32,7 +32,7 @@ function Proyectos() {
         {
             id: 3,
             title: "TaskFlow App",
-            metric: "Scalable headless CMS, 200+ products managed, SEO optimized",
+            metric: "",
             description: "A comprehensive full-stack project and task management system built with modern web technologies. TaskFlow provides an intuitive interface for managing projects, tasks, team members, and business workflows. It features user authentication, role-based access control, real-time notifications, and a responsive design for seamless use across devices. The backend is powered by NodeJS and Express, with PostgreSQL as the database, while the frontend leverages React and TypeScript for a dynamic user experience. Additionally, Docker is used for containerization, and Grafana along with Prometheus are implemented for monitoring application performance.",
             tags: ["Docker", "Grafana", "Prometheus", "NodeJS", "PostgreSQL", "React", "TypeScript", "Terraform"],
             codeLink: "https://github.com/josueguido/TaskFlow-App",

@@ -7,7 +7,7 @@ import {
 
 function About() {
 	const stats = [
-		{ value: "1+", label: "year of professional experience" },
+		{ value: "2+", label: "year of professional experience" },
 		{ label: "Several real-world, production-like projects" },
 		{ label: "AWS & DevOps stack in progress" },
 	];

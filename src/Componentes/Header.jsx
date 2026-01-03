@@ -1,6 +1,3 @@
-
-
-
 import { IconCloud } from "@tabler/icons-react"
 
 function Header() {
@@ -16,7 +13,7 @@ function Header() {
                     <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
                         <IconCloud size={24} className="text-blue-600 dark:text-blue-400" />
                     </div>
-                    <span className="text-2xl font-bold text-gray-900 dark:text-white">CloudOps</span>
+                    <span className="text-2xl font-bold text-gray-900 dark:text-white">Cloud</span>
                 </div>
 
                 <nav className="hidden md:flex items-center gap-8">
