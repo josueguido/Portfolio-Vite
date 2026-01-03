@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
 import {

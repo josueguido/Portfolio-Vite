@@ -35,7 +35,6 @@ export function OrbitingCirclesDemo() {
       </OrbitingCircles>
 
 
-      {/* Outer Circles (reverse) */}
       <OrbitingCircles
         className="h-[40px] w-[30px] border-none bg-transparent"
         reverse
@@ -52,7 +51,7 @@ export function OrbitingCirclesDemo() {
         duration={20}
         delay={20}
       >
-        <img src={logoSrc("HashiCorp Terraform")} alt="Terraform" className="w-full h-full" />
+        <img src={logoSrc("Terraform")} alt="Terraform" className="w-full h-full" />
       </OrbitingCircles>
     </div>
   );
