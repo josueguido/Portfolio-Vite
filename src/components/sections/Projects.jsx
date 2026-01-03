@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { TypewriterEffectSmooth } from "./ui/typewriter-effect"
+import { TypewriterEffectSmooth } from "../ui/typewriter-effect"
 import { IconCode, IconExternalLink } from "@tabler/icons-react"
-import ProjectModal from "./ProjectModal";
+import ProjectModal from "../modals/ProjectModal";
 
 function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);

@@ -1,29 +1,23 @@
-import IconCloud from "./ui/icon-cloud";
+import IconCloud from "../ui/icon-cloud";
 
 const slugs = [
-	"aws",
 	"docker",
 	"kubernetes",
 	"terraform",
 	"ansible",
 	"linux",
 	"go",
-  "csharp",
   "grafana",
   "prometheus",
   "elasticsearch",
-  "Kibana",
-  "cadvisor",
   "logstash",
 	"typescript",
 	"javascript",
 	"postgresql",
 	"git",
 	"github",
-	"visualstudiocode",
 	"githubactions",
   "npm",
-  "gitlabci"
 ];
 
 export function IconCloudDemo() {

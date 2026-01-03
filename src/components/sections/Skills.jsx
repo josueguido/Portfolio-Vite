@@ -1,4 +1,4 @@
-import { TypewriterEffectSmooth } from "./ui/typewriter-effect"
+import { TypewriterEffectSmooth } from "../ui/typewriter-effect"
 import { IconCloud, IconBox, IconCode, IconGitBranch, IconRadar, IconShield } from "@tabler/icons-react"
 
 function Skills() {

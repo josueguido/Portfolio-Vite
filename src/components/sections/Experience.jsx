@@ -1,5 +1,5 @@
 import { IconBriefcase, IconCalendar } from "@tabler/icons-react"
-import { TypewriterEffectSmooth } from "./ui/typewriter-effect"
+import { TypewriterEffectSmooth } from "../ui/typewriter-effect"
 
 function Experience() {
     const words = [

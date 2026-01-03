@@ -1,4 +1,4 @@
-import OrbitingCircles from "./ui/orbiting-circles";
+import OrbitingCircles from "../ui/orbiting-circles";
 
 export function OrbitingCirclesDemo() {
   const logoSrc = (name: string) => `/src/assets/Tecnologias/${name}.svg`;

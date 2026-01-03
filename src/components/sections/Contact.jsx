@@ -1,7 +1,7 @@
-import github from "../assets/Social/github.svg"
-import LinkedIn from "../assets/Social/linkedin.svg"
-import mail from "../assets/Social/mail.svg"
-import SocialLink from "./SocialLink";
+import github from "../../assets/Social/github.svg"
+import LinkedIn from "../../assets/Social/linkedin.svg"
+import mail from "../../assets/Social/mail.svg"
+import SocialLink from "../common/SocialLink";
 
 function Contact() {
     return (

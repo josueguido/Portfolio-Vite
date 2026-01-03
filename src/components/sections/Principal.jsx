@@ -1,8 +1,8 @@
 "use client";
-import Contact from "../Componentes/Contact"
-import { OrbitingCirclesDemo } from "./CircleComponent";
-import TypingAnimation from "./ui/typing-animation";
-import WordRotate from "./ui/word-rotate";
+import Contact from "./Contact"
+import { OrbitingCirclesDemo } from "../common/CircleComponent";
+import TypingAnimation from "../ui/typing-animation";
+import WordRotate from "../ui/word-rotate";
 
 export function Principal() {
     return (

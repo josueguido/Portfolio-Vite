@@ -1,27 +1,27 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import JavaScript from "../assets/Tecnologias/JavaScript.svg";
-import NPM from "../assets/Tecnologias/NPM.svg";
-import Git from "../assets/Tecnologias/Git.svg";
-import GitHub from "../assets/Tecnologias/GitHub.svg";
-import React from "../assets/Tecnologias/React.svg";
-import PostGres from "../assets/Tecnologias/PostGres.svg";
-import NodeJS from "../assets/Tecnologias/NodeJS.svg";
-import Express from "../assets/Tecnologias/Express.svg";
-import GitHubActions from "../assets/Tecnologias/GitHubActions.svg";
-import Docker from "../assets/Tecnologias/Docker.svg";
-import Terraform from "../assets/Tecnologias/Terraform.svg";
-import Kubernetes from "../assets/Tecnologias/Kubernetes.svg";
-import Grafana from "../assets/Tecnologias/Grafana.svg";
-import Prometheus from "../assets/Tecnologias/Prometheus.svg";
-import Kibana from "../assets/Tecnologias/Kibana.svg";
-import Logstash from "../assets/Tecnologias/Logstash.svg";
-import ElasticSearch from "../assets/Tecnologias/Elasticsearch.svg";
-import Go from "../assets/Tecnologias/Go.svg";
-import CSharp from "../assets/Tecnologias/CSharp.svg";
+import JavaScript from "../../assets/Tecnologias/JavaScript.svg";
+import NPM from "../../assets/Tecnologias/NPM.svg";
+import Git from "../../assets/Tecnologias/Git.svg";
+import GitHub from "../../assets/Tecnologias/GitHub.svg";
+import React from "../../assets/Tecnologias/React.svg";
+import PostGres from "../../assets/Tecnologias/PostGres.svg";
+import NodeJS from "../../assets/Tecnologias/NodeJS.svg";
+import Express from "../../assets/Tecnologias/Express.svg";
+import GitHubActions from "../../assets/Tecnologias/GitHubActions.svg";
+import Docker from "../../assets/Tecnologias/Docker.svg";
+import Terraform from "../../assets/Tecnologias/Terraform.svg";
+import Kubernetes from "../../assets/Tecnologias/Kubernetes.svg";
+import Grafana from "../../assets/Tecnologias/Grafana.svg";
+import Prometheus from "../../assets/Tecnologias/Prometheus.svg";
+import Kibana from "../../assets/Tecnologias/Kibana.svg";
+import Logstash from "../../assets/Tecnologias/Logstash.svg";
+import ElasticSearch from "../../assets/Tecnologias/Elasticsearch.svg";
+import Go from "../../assets/Tecnologias/Go.svg";
+import CSharp from "../../assets/Tecnologias/CSharp.svg";
 import TechSlide from "./TechSlide";
 import "swiper/css";
-import "../../src/index.css";
+import "../../index.css";
 
 function Slider() {
 	return (
@@ -29,7 +29,6 @@ function Slider() {
 			slidesPerView={8}
 			spaceBetween={2}
 			loop={true}
-			lazy={true}
 			effect={"coverflow"}
 			pagination={{
 				clickable: true,
