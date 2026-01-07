@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { IconX } from "@tabler/icons-react";
+import { getTechIcon } from "../../utils/techIcons";
 
 function ProjectModal({ project, isOpen, onClose }) {
 	if (!isOpen) return null;
@@ -26,18 +27,30 @@ function ProjectModal({ project, isOpen, onClose }) {
 
 				<div className="p-6 space-y-8">
 					<div>
-						<h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-							Technologies
+						<h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+							Technologies Used
 						</h3>
-						<div className="flex flex-wrap gap-2">
-							{project.tags.map((tag, idx) => (
-								<span
-									key={idx}
-									className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-200 text-xs font-medium rounded"
-								>
-									{tag}
-								</span>
-							))}
+						<div className="grid grid-cols-1 gap-3">
+							{project.tags.map((tag, idx) => {
+								const techInfo = getTechIcon(tag);
+								const description = project.techDescriptions?.[tag] || techInfo.description;
+								return (
+									<div
+										key={idx}
+										className={`flex items-start gap-3 p-3 rounded-lg border border-gray-200 dark:border-gray-700 ${techInfo.color}`}
+									>
+										<img 
+											src={techInfo.icon} 
+											alt={tag}
+											className="w-6 h-6 flex-shrink-0 mt-0.5 object-contain"
+										/>
+										<div>
+											<p className="font-semibold text-sm">{tag}</p>
+											<p className="text-xs opacity-80">{description}</p>
+										</div>
+									</div>
+								);
+							})}
 						</div>
 					</div>
 

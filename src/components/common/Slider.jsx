@@ -111,7 +111,7 @@ function Slider() {
 			</SwiperSlide>
 
 			<SwiperSlide>
-				<TechSlide src={CSharp} alt="CSharp" label="C#" />
+				<TechSlide src={CSharp} alt="CSharp" label="CSharp" />
 			</SwiperSlide>
 
 			<SwiperSlide>

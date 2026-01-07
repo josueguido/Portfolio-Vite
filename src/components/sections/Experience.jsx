@@ -16,7 +16,7 @@ function Experience() {
             company: "Mobydyg",
             period: "2024 - Present",
             description: "Developing full-stack applications with Angular and cloud backend technologies. Implementing multi-service integrations, real-time communication systems, and serverless architectures. Designed and deployed scalable solutions handling complex business requirements across multiple platforms.",
-            tags: ["AWS", "Angular", "TypeScript", "Lambda", "C#", "PostgreSQL", "DynamoDB", "WebSocket", "API Gateway", "SNS", "SQS", "EventBridge", "Aurora", "NodeJS", "Timekit API", "Infobip API", "Serverless", "Lambdas"],
+            tags: ["AWS", "Angular", "TypeScript", "Lambda", "C#", "PostgreSQL", "DynamoDB", "WebSocket", "Docker", "API Gateway", "SNS", "SQS", "EventBridge", "Aurora", "NodeJS", "Timekit API", "Infobip API", "Cognito", "Lambdas"],
         },
     ];
 

@@ -23,7 +23,7 @@ export function OrbitingCirclesDemo() {
           duration={17}
           radius={40}
         >
-          <img src={logoSrc("Docker")} alt="Docker" className="w-full h-full" />
+          <img src={logoSrc("Git")} alt="Git" className="w-full h-full" />
         </OrbitingCircles>
 
         <OrbitingCircles
@@ -32,7 +32,7 @@ export function OrbitingCirclesDemo() {
           delay={10}
           radius={85}
         >
-          <img src={logoSrc("Git")} alt="Git/DevOps" className="w-full h-full" />
+          <img src={logoSrc("Docker")} alt="Docker" className="w-full h-full" />
         </OrbitingCircles>
 
         <OrbitingCircles

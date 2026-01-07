@@ -58,7 +58,7 @@ function Skills() {
             title: "Programming & Scripting",
             description: "Coding and automation scripts",
             icon: IconCode,
-            skills: ["Go", "Bash", "TypeScript", "JavaScript", "C#"]
+            skills: ["TypeScript", "JavaScript","Go","C#","Bash"]
         },
         {
             id: 8,
