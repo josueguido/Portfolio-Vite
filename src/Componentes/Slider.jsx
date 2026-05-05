@@ -1,23 +1,20 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import HTML from "../assets/Tecnologias/HTML.svg"
-import CSS from "../assets/Tecnologias/CSS.svg"
-import JavaScript from "../assets/Tecnologias/JavaScript.svg"
-import NPM from "../assets/Tecnologias/NPM.svg"
+import Docker from "../assets/Tecnologias/Docker.svg"
+import Kubernetes from "../assets/Tecnologias/Kubernetes.svg"
+import AWS from "../assets/Tecnologias/AWS.svg"
+import Terraform from "../assets/Tecnologias/HashiCorp Terraform.svg"
+import Prometheus from "../assets/Tecnologias/Prometheus.svg"
+import Grafana from "../assets/Tecnologias/Grafana.svg"
+import GitHubActions from "../assets/Tecnologias/GitHubActions.svg"
 import Git from "../assets/Tecnologias/Git.svg"
 import GitHub from "../assets/Tecnologias/GitHub.svg"
-import React from "../assets/Tecnologias/React.svg"
-import PostGres from "../assets/Tecnologias/PostGres.svg"
+import Go from "../assets/Tecnologias/Go.svg"
+import ElasticSearch from "../assets/Tecnologias/Elastic Search.svg"
+import Kibana from "../assets/Tecnologias/Kibana.svg"
+import Logstash from "../assets/Tecnologias/Logstash.svg"
 import NodeJS from "../assets/Tecnologias/NodeJS.svg"
-import Express from "../assets/Tecnologias/Express.svg"
-import Astro from "../assets/Tecnologias/Astro.svg"
-import Vite from "../assets/Tecnologias/Vite.svg"
-import Next from "../assets/Tecnologias/Next.svg"
-import Tailwind from "../assets/Tecnologias/Tailwind.svg"
-import Jest from "../assets/Tecnologias/Jest.svg"
-import GitHubActions from "../assets/Tecnologias/GitHubActions.svg"
-import Vitest from "../assets/Tecnologias/Vitest.svg"
-import Testing from "../assets/Tecnologias/Testing-library.svg"
+import PostGres from "../assets/Tecnologias/PostGres.svg"
 import 'swiper/css';
 import '../../src/index.css'
 
@@ -57,76 +54,64 @@ function Slider() {
             }}
             className="mySwiper drop-shadow-xl py-20 px-5 pt-20 mt-10 hidden md:block" id='Skills'
         >
-            <SwiperSlide> 
-                <img src={HTML} alt='Tecnologias'/>
+            <SwiperSlide>
+                <img src={Docker} alt='Docker'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={CSS} alt='Tecnologias'/>
+                <img src={Kubernetes} alt='Kubernetes'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={JavaScript} alt='Tecnologias'/>
+                <img src={AWS} alt='AWS'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Git} alt='Tecnologias'/>
+                <img src={Terraform} alt='Terraform'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={GitHub} alt='Tecnologias'/>
+                <img src={Prometheus} alt='Prometheus'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={NPM} alt='Tecnologias'/>
+                <img src={Grafana} alt='Grafana'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={React} alt='Tecnologias'/>
+                <img src={GitHubActions} alt='GitHub Actions'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={PostGres} alt='Tecnologias'/>
+                <img src={Git} alt='Git'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={NodeJS} alt='Tecnologias'/>
+                <img src={GitHub} alt='GitHub'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Express} alt='Tecnologias'/>
+                <img src={Go} alt='Go'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Tailwind} alt='Tecnologias'/>
+                <img src={ElasticSearch} alt='Elasticsearch'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Astro} alt='Tecnologias'/>
+                <img src={Kibana} alt='Kibana'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Vite} alt='Tecnologias'/>
+                <img src={Logstash} alt='Logstash'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Next} alt='Tecnologias'/>
+                <img src={NodeJS} alt='NodeJS'/>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={GitHubActions} alt='Tecnologias'/>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <img src={Jest} alt='Tecnologias'/>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <img src={Vitest} alt='Tecnologias'/>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <img src={Testing} alt='Tecnologias'/>
+                <img src={PostGres} alt='PostgreSQL'/>
             </SwiperSlide>
         </Swiper>
     );
