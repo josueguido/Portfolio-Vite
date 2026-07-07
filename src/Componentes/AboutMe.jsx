@@ -53,7 +53,7 @@ function About() {
 					About Me
 				</h1>
 				<p className="text-gray-600 dark:text-gray-400 text-lg">
-					Cloud / DevOps Engineer (Junior–Mid) | AWS | Docker | IaC
+					Cloud / DevOps Engineer | AWS | Docker | IaC
 				</p>
 			</div>
 
