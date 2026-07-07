@@ -1,8 +1,12 @@
 import OrbitingCircles from "./ui/orbiting-circles";
 
-export function OrbitingCirclesDemo() {
-  const logoSrc = (name: string) => `/src/assets/Tecnologias/${name}.svg`;
+import AwsLogo from "../assets/Tecnologias/AWS.svg";
+import DockerLogo from "../assets/Tecnologias/Docker.svg";
+import GitLogo from "../assets/Tecnologias/Git.svg";
+import TerraformLogo from "../assets/Tecnologias/HashiCorp Terraform.svg";
+import KubernetesLogo from "../assets/Tecnologias/Kubernetes.svg";
 
+export function OrbitingCirclesDemo() {
   return (
     <div className="relative flex h-[400px] w-full max-w-[28rem] items-center justify-center overflow-hidden rounded-lg ">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-2xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
@@ -14,7 +18,7 @@ export function OrbitingCirclesDemo() {
         delay={20}
         radius={50}
       >
-        <img src={logoSrc("Kubernetes")} alt="Kubernetes" className="w-full h-full" />
+        <img src={KubernetesLogo} alt="Kubernetes" className="w-full h-full" />
       </OrbitingCircles>
 
       <OrbitingCircles
@@ -22,7 +26,7 @@ export function OrbitingCirclesDemo() {
         duration={17}
         radius={50}
       >
-        <img src={logoSrc("Docker")} alt="Docker" className="w-full h-full" />
+        <img src={DockerLogo} alt="Docker" className="w-full h-full" />
       </OrbitingCircles>
 
       <OrbitingCircles
@@ -31,7 +35,7 @@ export function OrbitingCirclesDemo() {
         delay={10}
         radius={120}
       >
-        <img src={logoSrc("Git")} alt="Git/DevOps" className="w-full h-full" />
+        <img src={GitLogo} alt="Git/DevOps" className="w-full h-full" />
       </OrbitingCircles>
 
 
@@ -42,7 +46,7 @@ export function OrbitingCirclesDemo() {
         radius={190}
         duration={20}
       >
-        <img src={logoSrc("AWS")} alt="AWS" className="w-full h-full" />
+        <img src={AwsLogo} alt="AWS" className="w-full h-full" />
       </OrbitingCircles>
 
       <OrbitingCircles
@@ -52,7 +56,7 @@ export function OrbitingCirclesDemo() {
         duration={20}
         delay={20}
       >
-        <img src={logoSrc("HashiCorp Terraform")} alt="Terraform" className="w-full h-full" />
+        <img src={TerraformLogo} alt="Terraform" className="w-full h-full" />
       </OrbitingCircles>
     </div>
   );
