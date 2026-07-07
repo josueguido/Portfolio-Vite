@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { IconMenu2, IconX, IconDownload } from "@tabler/icons-react"
-import CV from "../assets/CV_Josue_Guido.docx.pdf"
+import CV from "../assets/CV_Josue_Guido_DevOps.docx.pdf"
 
 const NAV_LINKS = [
     { label: "Skills", id: "skills" },
@@ -37,7 +37,7 @@ function Header() {
                 <div className="w-px h-5 bg-gray-200 dark:bg-gray-700 mx-1" />
                 <a
                     href={CV}
-                    download="CV_Josue_Guido.pdf"
+                    download="CV_Josue_Guido_DevOps.pdf"
                     className="flex items-center gap-1.5 px-4 py-1.5 text-sm font-medium text-gray-600 dark:text-gray-300 rounded-full hover:bg-gray-100 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-white transition-all"
                 >
                     <IconDownload size={14} />
@@ -76,7 +76,7 @@ function Header() {
                         ))}
                         <a
                             href={CV}
-                            download="CV_Josue_Guido.pdf"
+                            download="CV_Josue_Guido_DevOps.pdf"
                             className="flex items-center justify-center gap-2 px-5 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-100 dark:hover:bg-slate-800 transition-all"
                         >
                             <IconDownload size={14} />

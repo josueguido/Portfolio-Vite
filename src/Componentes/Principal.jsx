@@ -4,7 +4,7 @@ import { OrbitingCirclesDemo } from "./CircleComponent";
 import TypingAnimation from "./ui/typing-animation";
 import WordRotate from "./ui/word-rotate";
 import { IconDownload } from "@tabler/icons-react";
-import CV from "../assets/CV_Josue_Guido.docx.pdf";
+import CV from "../assets/CV_Josue_Guido_DevOps.docx.pdf";
 
 export function Principal() {
     return (

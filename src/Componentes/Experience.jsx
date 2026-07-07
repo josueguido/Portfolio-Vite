@@ -12,9 +12,9 @@ function Experience() {
     const experiences = [
         {
             id: 1,
-            title: "Full Stack Developer",
+            title: "Software Engineer – Cloud & Backend",
             company: "Mobydyg",
-            period: "2024 - Present",
+            period: "July 2024 – Present",
             description: "Full-stack development with Angular and AWS cloud backend. Built and deployed a complete appointments & sessions platform end-to-end, handling high concurrent usage. Integrated third-party services including Timekit (scheduling), Infobip (multi-channel messaging) and Chatwoot. Reduced page load times from 15–17 s down to under 3 s through lazy-loading strategies, skeleton screens and bundle optimization. Designed event-driven serverless architectures using Lambda, SNS/SQS, EventBridge and API Gateway.",
             highlights: [
                 { metric: "15–17s → <3s", label: "Page load time improvement" },
